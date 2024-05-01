@@ -82,7 +82,7 @@ const LoginPage = () => {
               className="btn btn-circle "
               onClick={() =>
                 signIn("google", {
-                  callbackUrlL: "http://localhost:3000/dashboard",
+                  callbackUrl: "http://localhost:3000/dashboard",
                 })
               }
             >
@@ -97,7 +97,7 @@ const LoginPage = () => {
               className="btn btn-circle"
               onClick={() =>
                 signIn("github", {
-                  callbackUrlL: "http://localhost:3000/dashboard",
+                  callbackUrl: "http://localhost:3000/dashboard",
                 })
               }
             >
